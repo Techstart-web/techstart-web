@@ -1,0 +1,44 @@
+/* Layout and Fonts */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+}
+
+#hero, #about, #services, #contact {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Typography */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.emphasize {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Box Model Demonstration for Cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 250px;
+    
+    /* Box Model Properties */
+    border: 2px solid #333; /* Border */
+    padding: 20px;          /* Padding: Space inside the border */
+    margin: 15px;           /* Margin: Space outside the border */
+    
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
